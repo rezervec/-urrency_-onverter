@@ -13,7 +13,7 @@ var lang = navigator.language || navigator.userLanguage
 
 // после загрузки DOM меняем соответствующие значения относительно локали
 window.addEventListener('load', () => {
-  if (lang == 'ru') {
+  if (lang == 'ru' || lang == 'ru-RU') {
     select_from.value = 'USD'
   }
   else {
