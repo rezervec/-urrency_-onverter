@@ -1,0 +1,52 @@
+body {
+  background-color:azure;
+  margin: 0;
+}
+
+.box {height: 100vh; width: 100%;}
+
+.main {
+  background-color: antiquewhite;
+  min-width: 300px;
+  max-width: 50%;
+  margin: auto;
+  min-height: 70%;
+  transform: translate(0, 20%);
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px black;
+  display: grid;
+  align-items: center;
+}
+
+.app_name {
+  font-size: 1.7em;
+  text-align: center;
+  box-shadow: inset 0px -2px 2px rgb(140, 127, 109);
+  padding-bottom: 7%;
+}
+
+#input_value,
+#get_value {
+  display: block;
+  width: 50%;
+  min-height: 50px;
+  border: solid 1px;
+  background-color:honeydew;
+  margin: auto;
+  font-size: 200%;
+}
+
+#select_into,
+#select_from {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.info_into,
+.info_from {
+  margin: 0.3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: grey;
+}
